@@ -23,6 +23,21 @@ public class Main {
                 case 5:
                     Ex5.Solution(scan);
                     break;
+                case 6:
+                    Ex6.Solution(scan);
+                    break;
+                case 7:
+                    Ex7.Solution(scan);
+                    break;
+                case 8:
+                    Ex8.Solution(scan);
+                    break;
+                case 9:
+                    Ex9.Solution(scan);
+                    break;
+                case 10:
+                    Ex10.Solution(scan);
+                    break;
                 default:
                     System.out.println("Número inválido");
             }
