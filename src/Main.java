@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int selected = 0;
-        while(selected == -1){
+        while(selected != -1){
             System.out.println("Insira o número do exercício que você quer testar (1 a 10, -1 pra sair)");
             selected = scan.nextInt();
             switch (selected) {
